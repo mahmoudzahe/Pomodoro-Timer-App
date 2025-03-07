@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  #currentMode {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+  
+  #timerDisplay {
+    font-size: 3em;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+  
+  .controls button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .controls button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  .settings {
+    margin-top: 20px;
+  }
+  
+  .settings label {
+    margin: 0 10px;
+  }
+  
+  .settings input {
+    width: 60px;
+    padding: 5px;
+  }
+  
+  .settings button {
+    padding: 5px 15px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 600px) {
+    .container {
+      width: 90%;
+    }
+  
+    #timerDisplay {
+      font-size: 2em;
+    }
+  } 
