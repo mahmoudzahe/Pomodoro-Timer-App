@@ -12,11 +12,7 @@ _Pomodoro Timer application built with ES Modules and Webpack.
 2_npm run build.
 3_npm start.
 
-
-
-
-
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone <your-repo-link>
+--Installation--
+1_cd "Pomodoro Timer App"
+2_npm install
+git clone git clone https://github.com/mahmoudzahe/Pomodoro-Timer-App.git
